@@ -1,6 +1,6 @@
 #' Split a string
 #' @description
-#' This function is identical to strsplit() but returns a `vector` rather than a `list`.
+#' This function is identical to `strsplit()` but returns a `vector` rather than a `list`.
 #'
 #'
 #' @param x A character vector with one element.

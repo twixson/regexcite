@@ -15,7 +15,7 @@ strsplit1(x, split)
 A character Vector.
 }
 \description{
-This function is identical to strsplit() but returns a \code{vector} rather than a \code{list}.
+This function is identical to \code{strsplit()} but returns a \code{vector} rather than a \code{list}.
 }
 \examples{
 x <- "alfa,bravo,charlie,delta"
