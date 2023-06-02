@@ -40,8 +40,8 @@ This function is identical to \code{strsplit()} but returns a \code{vector} rath
 }
 \examples{
 x <- "alfa,bravo,charlie,delta"
-str_split_one(x, split = ",")
-str_split_one(x, split = ",", n=2)
+str_split_one(x, pattern = ",")
+str_split_one(x, pattern = ",", n=2)
 
 y <- c("192.168.0.1")
 str_split_one(y, pattern = stringr::fixed("."))
